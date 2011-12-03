@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# this code was written by Matteo Mattei at http://www.matteomattei.com/en/extract-u-boot-multi-file-image-in-python/
+# This code was written by Brian McKenzie <mckenzba@gmail.com> and is under the terms of the BSD License.
 
 if [ -f ./uRamdisk ]; then
 	dd if=uRamdisk bs=64 skip=1 of=ramdisk.ext2.gz
