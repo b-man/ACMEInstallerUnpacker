@@ -1,0 +1,17 @@
+DISCLAIMER:
+        I AM NOT HELD RESPONSIBLE FOR ANY DAMAGES THAT THIS SOFTWARE COULD CAUSE TO YOUR PC OR HP TOUCHPAD.
+        THE FILES THAT THIS SOFTWARE GENERATES ARE FOR PERSONAL USE ONLY. YOU MUST ASK THE ORIGINAL AUTHOR
+        OF ACMEINSTALLER FOR PERMISSION BEFORE REDISTRIBUTING THE GENERATED RAMDISK.
+
+To use this software, simply place ACMEInstaller into this directory and execute "./run.sh" to unpack ACMEInstaller and extract a mountable ramdisk.
+
+NOTE - this program will produce the following files in this directory:
+	ramdisk.ext2 - your mountable ext2 ramdisk image
+	uRamdisk     - your binary u-boot ramdisk image
+	uImage       - your binary u-boot kernel image
+
+(these files can quickly be deleted by executing "./clean.sh")
+
+For any questions, please email me at mckenzba@gmail.com
+
+See LICENSE for license details.
